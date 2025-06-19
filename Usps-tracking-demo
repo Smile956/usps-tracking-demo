@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USPS Tracking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f6f6;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+    }
+    .container {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 20px;
+      color: #333;
+      text-align: center;
+    }
+    .tracking-number {
+      background: #eee;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .status {
+      color: green;
+      font-weight: bold;
+    }
+    .event {
+      border-left: 4px solid #0073e6;
+      padding-left: 10px;
+      margin: 10px 0;
+    }
+    .event time {
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>USPS Tracking</h1>
+    <p><strong>Tracking Number:</strong></p>
+    <div class="tracking-number">9400 1112 3456 7890 1234 56</div>
+    <p class="status">Status: In Transit</p>
+    <p><strong>Expected Delivery:</strong> Saturday, June 21, 2025</p><div class="event">
+  <p><strong>Departed USPS Regional Facility</strong></p>
+  <time>June 19, 2025 – 3:45 PM – Tulsa, OK</time>
+</div>
+
+<div class="event">
+  <p><strong>Arrived at USPS Regional Facility</strong></p>
+  <time>June 19, 2025 – 12:08 PM – Tulsa, OK</time>
+</div>
+
+<div class="event">
+  <p><strong>Accepted at USPS Origin Facility</strong></p>
+  <time>June 19, 2025 – 8:35 AM – Oklahoma City, OK</time>
+</div>
+
+<div class="event">
+  <p><strong>Shipping Label Created, USPS Awaiting Item</strong></p>
+  <time>June 19, 2025 – 7:50 AM – Oklahoma City, OK</time>
+</div>
+
+  </div>
+</body>
+</html>
